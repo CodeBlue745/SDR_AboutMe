@@ -1,0 +1,116 @@
+/*Preferences for HTML Elements*/
+body {
+    margin: 0px 120px 0px 120px;
+    background-image: url("../NOAA_Oceanwave_CC.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:center;
+}
+div.floatDoc{
+    background-image: url("../Green.png");
+    padding: 0px 15px 0px 15px;
+}
+h2{
+    font-size: 22px;
+    margin: 16.5px 0px 2.2px 0px;
+}
+p {
+    margin:0px 0px 9px 0px;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+em{
+    line-height: 1.5em;
+}
+ul{
+    margin-top:0px;
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+}
+
+/*Preferences for element states, classes, and ids*/
+a:hover {
+    text-decoration: underline;
+}
+section.LimeRicky {
+    margin-left: 50px;
+    line-height: 1.5em;
+}
+img.name{
+    width: 200px;
+}
+img.face{
+    float: right;
+    height: 500px;
+    width: 500px;
+    margin: 440px 0px 15px 15px;
+    border: 5px solid white;
+    box-shadow: 5px 10px;
+}
+
+/*Table*/
+#classSchedule{
+    font-family: Georgia, Arial, Cochin, sans-serif;
+    background-color: #FFFFFF;
+    border: 5px solid black;
+    border-collapse:collapse;
+}
+#classSchedule tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th,
+td {
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 5px 3px 3px 3px;
+    text-align: center;
+    vertical-align: top;
+}
+th{
+    background-color: #A7A7A7;
+    text-align: left;
+}
+
+th.dayClass{
+    width:100px;
+}
+td.enterdevClass{
+    background-color: #CBC3E3;
+    outline-style:outset;
+    outline-color:#CBC3E3;
+    outline-offset: -5px;
+
+}
+td.workClass{
+    background-color: aqua;
+    outline-style:outset; 
+    outline-color:aqua;
+    outline-offset:-5px;
+}
+td.webappClass{
+    background-color: lightyellow;
+    outline-style: outset;
+    outline-color: lightyellow;
+    outline-offset: -5px;
+}
+td.wpClass{
+    background-color: #C4A484;
+    outline-style:outset;
+    outline-color: #C4A484;
+    outline-offset: -5px;
+}
+
+/*Responsive styling for smartphone screens.*/
+@media only screen and (max-width: 1000px) {
+    img.face{
+        height: 500px;
+        width: 500px;
+        margin-top:15px;
+        margin-bottom: 20px;
+        margin-right:60px;
+        border: 5px solid white;
+        box-shadow: 5px 10px #000000;
+    }
+}
